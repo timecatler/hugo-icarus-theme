@@ -130,12 +130,15 @@ a:visited {
 }
 code {
   margin: 0 2px;
-  color: #e96900;
   padding: 3px 5px;
   font-size: 0.8em;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+}
+/* Why format preformated code? */
+:not(pre) > code {
+  color: #e96900;
   background-color: #f8f8f8;
 }
 .outer {
